@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    cursor: default;
+}
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(0, 113, 211);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: whitesmoke;
+    padding: 20px;
+    color: rgb(1, 39, 72);
+}
+#logo{
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(1, 39, 72);
+    text-decoration: none;
+    padding-left: 20px;
+}
+#Copyright{
+    font-size: 12px;
+}
+#mailIcon,
+#messageIcon,
+#whatsappIcon{
+    width: 25px;
+}
+#contactDiv{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+#contactTexts{
+    line-height: 6px;
+    font-size: 13px;
+}
+#contactIcons a{
+    margin: 0 10px;
+}

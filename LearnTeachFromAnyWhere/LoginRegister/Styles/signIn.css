@@ -1,0 +1,53 @@
+form{
+    margin: auto;
+    padding: 15px;
+}
+#email,
+#password{
+    padding: 10px 0 10px 10px;
+    width: 100%;
+    margin: 8px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid gray ;
+}
+button{
+   background-color: rgb(0, 67, 89);
+   border: none;
+   padding: 10px 15px;
+   border-radius: 8px;
+   color: whitesmoke;
+   font-weight: 600;
+   margin: 20px;
+   cursor: pointer;
+}
+.radios{
+    cursor: pointer;
+    margin: 20px 5px 20px 30px;
+}
+button:hover{
+    opacity: 0.85;
+    transition: 0.3s;
+}
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 56, 74);
+}
+body{
+    text-align: center;
+    padding-top: 75px;
+}
+section{
+    width: 30%;
+    margin: 50px auto;
+    padding: 20px 50px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 50px rgb(169, 169, 169);
+}
+#forgotPassword{
+    display: block;
+    color: rgb(0, 63, 83);
+    text-align: start;
+    text-decoration: none;
+}

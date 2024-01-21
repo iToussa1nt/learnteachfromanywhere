@@ -1,0 +1,49 @@
+
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    line-height: 23px;
+    padding-top: 75px;
+}
+#landScape{
+    padding: 100px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../icons/Number-of-Books-Published-Per-Year-1024x683.jpg');
+    background-size: cover;
+    background-position: center;
+    color: rgb(122, 165, 180);
+}
+.texts h1{
+    font-size: 50px;
+}
+.texts{
+    text-align: center;
+}
+#Legacy{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 10px;
+}
+#Legacy div{
+    text-align: center;
+    color: rgb(0, 48, 64);
+    box-shadow: 5px 5px 10px rgb(192, 203, 206);
+    flex: 1;
+}
+#workWithUs{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 40px;
+    row-gap: 20px;
+    column-gap: 20px;
+    color: rgb(0, 48, 64);
+}
+#workWithUs div{
+    text-align: center;
+    box-shadow: 5px 5px 10px rgb(192, 203, 206);
+    padding: 20px;
+}
+.workWithUs{
+    color: rgb(0, 48, 64);
+    text-align: center;
+    margin: 30px;
+}

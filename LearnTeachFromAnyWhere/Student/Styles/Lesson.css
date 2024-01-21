@@ -1,0 +1,72 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 48, 64);
+}
+section{
+    display: flex;
+    margin-top: 70px;
+    min-height: 290px;
+}
+.classes input{
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: -1px;
+    cursor: pointer;
+    outline: none;
+}
+.searchDiv{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    border-bottom: 2px solid rgb(189, 189, 189);
+    padding: 0 20px;
+}
+.searchIcon{
+    width: 18px;
+    padding: 10px;
+    border: 1px solid black;
+    margin-left: -1px;
+    background-color: rgb(225, 225, 225);
+    cursor: pointer;
+}
+.courses{
+    flex: 1;
+}
+.search{
+    padding: 10px;
+    flex: 1;
+    outline: none;
+}
+#searchDiv{
+    display: flex;
+}
+#Lessons{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 20px;
+    column-gap: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.lesson{
+    width: 260px;
+    background-color: rgb(226, 226, 226);
+}
+.Description p{
+    margin-top: 0;
+    line-height: 14px;
+    color: rgb(79, 79, 79);
+}
+.Description{
+    padding: 5px;
+    font-size: 13px;
+}
+.timeStamp{
+    text-align: end;
+}
+.readNotes{
+    padding: 5px;
+    font-size: 12px;
+    cursor: pointer;
+}

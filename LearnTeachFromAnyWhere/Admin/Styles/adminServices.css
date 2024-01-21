@@ -1,0 +1,118 @@
+body{
+    margin-top: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+section{
+    margin-top: 100px;
+}
+table{
+    border-collapse: collapse;
+    margin: auto;
+}
+th,td{
+    border: 1px solid black;
+    padding: 10px;
+}
+#addForm,
+#updateForm{
+    width: 40%;
+    text-align: center;
+    box-shadow: 5px 5px 50px gray;
+    padding: 20px;
+    position: relative;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    z-index: 5;
+    display: none;
+    background-color: white;
+}
+#addForm input,
+#updateForm input{
+    padding: 10px;
+    display: block;
+    width: 80%;
+    margin: 20px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid rgb(63, 63, 63);
+}
+#addServiceButton,
+#editServiceButton{
+    padding: 10px;
+    color: white;
+    border-radius: 6px;
+    background-color: rgb(0, 81, 108);
+    border: none;
+    margin: 20px auto;
+    font-weight: 600;
+    cursor: pointer;
+}
+#view{
+    background-color: rgb(0, 57, 0);
+    color: white;
+    font-weight: 600;
+    border-radius: 4px;
+    border: none;
+    margin: 10px;
+    padding: 10px;
+}
+#delete{
+    background-color: rgb(79, 0, 0);
+    color: white;
+    border: none;
+    margin: 10px;
+    font-weight: 600;
+    padding: 10px;
+}
+#edit{
+    background-color: rgb(0, 0, 51);
+    color: white;
+    font-weight: 600;
+    border-radius: 4px;
+    border: none;
+    margin: 10px;
+    padding: 10px;
+}
+#addDescription{
+    display: block;
+    margin: 20px;
+}
+h3{
+    color: rgb(0, 96, 128);
+    text-align: center;
+}
+#addService{
+    color: white;
+    font-weight: 600;
+    padding: 10px 20px;
+    border: none;
+    background-color: rgb(0, 146, 194);
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 20px 140px;
+}
+#hideAdd,
+#hideEdit,
+#hideView{
+    background-color: rgb(166, 0, 0);
+    padding: 3px 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: white;
+    cursor: pointer;
+}
+#viewForm{
+    width: 40%;
+    text-align: center;
+    box-shadow: 5px 5px 50px gray;
+    padding: 20px;
+    position: relative;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    z-index: 100;
+    text-align: start;
+    display: none;
+}

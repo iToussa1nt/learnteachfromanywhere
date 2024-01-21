@@ -1,0 +1,36 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 80px;
+}
+section{
+    min-height: 290px;
+    width: 30%;
+    margin: auto;
+}
+input{
+    display: block;
+}
+.gett{
+    width: 100%;
+    margin: 6px;
+    padding: 10px; 
+}
+#msg{
+    width: 100%;
+    margin: 6px;
+    padding: 10px; 
+    height: auto;
+}
+form{
+    text-align: center;
+}
+.button{
+    padding: 10px 30px;
+    background-color: rgb(0, 56, 74);
+    border-radius: 20px;
+    border: none;
+    color: whitesmoke;
+    font-weight: 600;
+    margin: 10px auto;
+    cursor: pointer;
+}

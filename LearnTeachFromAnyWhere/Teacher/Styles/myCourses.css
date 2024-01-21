@@ -1,0 +1,33 @@
+
+section{
+    margin: 40px;
+    margin-top: 100px;
+    min-height: 290px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 20px;
+    column-gap: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.lesson{
+    width: 260px;
+    background-color: rgb(226, 226, 226);
+}
+.Description p{
+    margin-top: 0;
+    line-height: 14px;
+    color: rgb(79, 79, 79);
+}
+.Description{
+    padding: 5px;
+    font-size: 13px;
+}
+.timeStamp{
+    text-align: end;
+}
+.readNotes{
+    padding: 5px;
+    font-size: 12px;
+    cursor: pointer;
+}

@@ -1,0 +1,41 @@
+body{
+    cursor: default;
+}
+nav{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: #001425;
+    z-index: 100;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+#navList{
+    display: flex;
+    margin-right: 20px;
+}
+#navList li{
+    list-style-type: none;
+}
+#navList li a{
+    margin: 0 20px;
+    padding: 10px;
+    color: whitesmoke;
+    font-weight: 600;
+    text-decoration: none;
+}
+#navList li a:hover{
+    transition: 0.3s;
+    border-bottom: 2px solid #0088ff;
+}
+#logo{
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(0, 105, 196);
+    text-decoration: none;
+}
